@@ -16,7 +16,7 @@ namespace CsharEğitimKampı301.EfProjec
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLocation());
+            Application.Run(new FrmStatistic());
         }
     }
 }
