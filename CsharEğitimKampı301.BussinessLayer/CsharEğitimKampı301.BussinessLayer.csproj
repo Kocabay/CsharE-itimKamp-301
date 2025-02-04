@@ -41,6 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryService.cs" />
+    <Compile Include="Abstract\ICustomerService.cs" />
+    <Compile Include="Abstract\IGenericService.cs" />
+    <Compile Include="Abstract\IOrderService.cs" />
+    <Compile Include="Abstract\IProductService.cs" />
+    <Compile Include="Concrete\CategoryManager.cs" />
+    <Compile Include="Concrete\CustomerManager.cs" />
+    <Compile Include="Concrete\OrderManager.cs" />
+    <Compile Include="Concrete\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +57,14 @@
       <Project>{d3af911f-6289-421e-b22a-1f5f740df096}</Project>
       <Name>CsharEğitimKampı301.DataAccessLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CsharEğitimKampı301.EntityLayer\CsharEğitimKampı301.EntityLayer.csproj">
+      <Project>{9D077DAB-6465-438B-A0E1-68DECD28791C}</Project>
+      <Name>CsharEğitimKampı301.EntityLayer</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
