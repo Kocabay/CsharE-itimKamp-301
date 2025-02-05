@@ -24,7 +24,7 @@ Partial Class FrmCategory
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtCategoryId = New System.Windows.Forms.TextBox()
-        Me.btnList = New System.Windows.Forms.Button()
+        Me.btnListt = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtCategoryAd = New System.Windows.Forms.TextBox()
@@ -54,14 +54,14 @@ Partial Class FrmCategory
         Me.txtCategoryId.Size = New System.Drawing.Size(159, 20)
         Me.txtCategoryId.TabIndex = 2
         '
-        'btnList
+        'btnListt
         '
-        Me.btnList.Location = New System.Drawing.Point(89, 118)
-        Me.btnList.Name = "btnList"
-        Me.btnList.Size = New System.Drawing.Size(168, 48)
-        Me.btnList.TabIndex = 3
-        Me.btnList.Text = "Listele"
-        Me.btnList.UseVisualStyleBackColor = True
+        Me.btnListt.Location = New System.Drawing.Point(89, 118)
+        Me.btnListt.Name = "btnListt"
+        Me.btnListt.Size = New System.Drawing.Size(168, 48)
+        Me.btnListt.TabIndex = 3
+        Me.btnListt.Text = "Listele"
+        Me.btnListt.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
@@ -169,7 +169,7 @@ Partial Class FrmCategory
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.btnList)
+        Me.Controls.Add(Me.btnListt)
         Me.Controls.Add(Me.txtCategoryId)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FrmCategory"
@@ -182,7 +182,7 @@ Partial Class FrmCategory
 
     Friend WithEvents Label1 As Label
     Friend WithEvents txtCategoryId As TextBox
-    Friend WithEvents btnList As Button
+    Friend WithEvents btnListt As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label2 As Label
     Friend WithEvents txtCategoryAd As TextBox
